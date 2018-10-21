@@ -1,0 +1,34 @@
+	
+    // Example of a change config
+	ConfigManager.SetConfig("possition", "top");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	// Example to get config
+	
+	String getpossition = ConfigManager.GetConfig("possition");
+	
+	String getcolor = ConfigManager.GetConfig("color");
+	
+	String getupdate = ConfigManager.GetConfig("update");
+	
+	System.out.println(getpossition + "\n" + getcolor + "\n" + getupdate);
+		
+		
+		
+		
+		
+		
+	
+	// Example to get screen size
+	int width = GetInfoComputer.GetWidth();
+		
+	int height = GetInfoComputer.GetHeight();
+	
+	System.out.println(width + "\n" + height);
