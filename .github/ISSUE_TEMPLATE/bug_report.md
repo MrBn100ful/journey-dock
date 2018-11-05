@@ -21,7 +21,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. iOS]
+ - OS: [e.g. Windows 7]
  - Java version [e.g. 1.8.0_172]
  - Version of journey-dock [e.g. 22]
 
