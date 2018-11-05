@@ -1,6 +1,5 @@
 # journey-dock
-Journey dock is exandock rebuild for scratch
+Journey dock is the dock for everyone !
 
-It build to be powerful, simple, open and customizable !
-The project is base on exandock code.
-Journey Dock will be crossplatform and lightweight.
+It build to be powerful, simple, open and customizable.
+Journey Dock is crossplatform and lightweight.
