@@ -1,21 +1,32 @@
 package fr.MrBn100ful.JourneyDock;
 
-import javax.swing.JFrame;
+import javafx.application.Application;
+import javafx.stage.Stage;
 
-public class Frame {
+public class Frame  {
 
-	static JFrame dock = new JFrame();
 
-	public static void MainFrame() {
 
-		ThemeManager.SetDecoration(dock);
+	
+	//@Override
+	//public void start(Stage primaryStage) {
+		
+		  //Group root = new Group();
+	        
+			//Scene scene = new Scene(root, 800, 600, Color.LIGHTBLUE);
+	       
+	        //primaryStage.setScene(scene);
 
-		ThemeManager.SetColorFrame(dock, ConfigManager.GetConfig("color"));
+	        //primaryStage.setVisible(true);
+		
 
-		ThemeManager.SetDockSize(dock, 50);
+		// ThemeManager.SetDecoration(dock);
 
-		dock.setVisible(true);
+		// ThemeManager.SetColorFrame(dock, ConfigManager.GetConfig("color"));
 
-	}
+		// ThemeManager.SetDockSize(dock, 50);
+
+
+	//}
 
 }

@@ -26,5 +26,14 @@ public class GetInfoComputer {
 		return height;
 
 	}
+	
+	public static String GetOs() {
+		
+		String os = null;
+		
+		os = System.getProperty("os.name");
+		
+		return os;
+	}
 
 }
