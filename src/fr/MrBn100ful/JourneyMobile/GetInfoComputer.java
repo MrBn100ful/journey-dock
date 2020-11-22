@@ -1,4 +1,4 @@
-package fr.MrBn100ful.JourneyDock;
+package fr.MrBn100ful.JourneyMobile;
 
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
