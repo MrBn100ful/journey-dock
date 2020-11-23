@@ -31,15 +31,9 @@ public class Main extends Application{
 	
 	@Override
     public void start(Stage primaryStage) {
-		
-		ThemeManager.SetDecoration(primaryStage);
+    
+		StageManager.start(primaryStage);
 
-		//ThemeManager.SetColorFrame(dock, ConfigManager.GetConfig("color"));
-
-		ThemeManager.SetDockSize(primaryStage, 50);
-		
-		
-        primaryStage.show();
-    }
+	}
     
 }

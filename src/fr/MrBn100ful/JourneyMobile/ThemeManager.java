@@ -1,58 +1,64 @@
 package fr.MrBn100ful.JourneyMobile;
 
-import java.awt.Color;
-
+import javafx.scene.Scene;
+import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class ThemeManager {
 
-	public static void SetColorstage(Stage stage, String color) {
+	public static void SetColorstage(Scene scene, String color) {
 
-		if (color.equals("gray")) {
-
-			stage.setBackground(new Color(91, 91, 91, 200));
-
-		} else if (color.equals("red")) {
-
-			stage.setBackground(new Color(246, 44, 44, 200));
-
-		} else if (color.equals("green")) {
-
-			stage.setBackground(new Color(22, 205, 52, 200));
-
-		} else if (color.equals("blue")) {
-
-			stage.setBackground(new Color(26, 138, 212, 200));
-
-		} else if (color.equals("white")) {
-
-			stage.setBackground(new Color(255, 255, 255, 200));
-
-		} else if (color.equals("yellow")) {
-
-			stage.setBackground(new Color(255, 230, 0, 200));
-
-		} else if (color.equals("pink")) {
-
-			stage.setBackground(new Color(235, 35, 195, 200));
-
-		} else if (color.equals("purple")) {
-
-			stage.setBackground(new Color(95, 35, 235, 200));
-
-		} else if (color.equals("orange")) {
-
-			stage.setBackground(new Color(235, 148, 35, 200));
-
-		}
-		
-		return scene;
+//		if (color.equals("gray")) {
+//
+//			stage.setBackground(new Color(91, 91, 91, 200));
+//			scene.setFill(Paint.valueOf("black"));
+//
+//		} else if (color.equals("red")) {
+//
+//			stage.setBackground(new Color(246, 44, 44, 200));
+//
+//		} else if (color.equals("green")) {
+//
+//			stage.setBackground(new Color(22, 205, 52, 200));
+//
+//		} else if (color.equals("blue")) {
+//
+//			stage.setBackground(new Color(26, 138, 212, 200));
+//
+//		} else if (color.equals("white")) {
+//
+//			stage.setBackground(new Color(255, 255, 255, 200));
+//
+//		} else if (color.equals("yellow")) {
+//
+//			stage.setBackground(new Color(255, 230, 0, 200));
+//
+//		} else if (color.equals("pink")) {
+//
+//			stage.setBackground(new Color(235, 35, 195, 200));
+//
+//		} else if (color.equals("purple")) {
+//
+//			stage.setBackground(new Color(95, 35, 235, 200));
+//
+//		} else if (color.equals("orange")) {
+//
+//			stage.setBackground(new Color(235, 148, 35, 200));
+//
+//		}
+//		
+		scene.setFill(Paint.valueOf("black"));
 
 	}
 
 	public static void SetDecoration(Stage stage) {
 
 		stage.setResizable(false);
+		
+		stage.setAlwaysOnTop(true);
+		
+		stage.initStyle(StageStyle.UNDECORATED);
 
 	}
 
